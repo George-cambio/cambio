@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bot-cambio
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python proba3.py
